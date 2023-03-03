@@ -12,7 +12,7 @@ TEMP_MONGODB = "mongodb+srv://prasad:12345@cluster0.qda3iov.mongodb.net/?retryWr
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "No MONGO DB URL found.. Your Bot will work on Yukki's Database"
+        "No MONGO DB URL found..- Your Bot will work on Yukki's Database"
     )
     temp_client = Client(
         "Yukki",
