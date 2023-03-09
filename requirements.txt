@@ -21,4 +21,4 @@ tgcrypto
 youtube-search
 youtube-search-python
 git+https://github.com/newuserx1/chems2
-git+https://github.com/rajanvibes/speemdtemst-cmli
+git+https://github.com/newuserx1/simad
