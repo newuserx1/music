@@ -1,11 +1,4 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+
 
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup,
@@ -64,7 +57,7 @@ async def inline_query_handler(client, query):
 
 __Reply with /play on this searched message to stream it on voice chat.__
 
-⚡️ ** Inline Search By {MUSIC_BOT_NAME} **"""
+⚡️ ** Inline Search By {MUSIC_BOT_NAME} **powered By @Music_Forever_X"""
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,
