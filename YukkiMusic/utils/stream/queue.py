@@ -41,7 +41,6 @@ async def put_queue(
         "vidid": vidid,
         "seconds": duration_in_seconds,
         "played": 0,
-        "Powered By @Music_Forever_X",
     }
     if forceplay:
         check = db.get(chat_id)
@@ -85,7 +84,6 @@ async def put_queue_index(
         "vidid": vidid,
         "seconds": 0,
         "played": 0,
-        "Powered By @Music_Forever_X",
     }
     if forceplay:
         check = db.get(chat_id)
