@@ -39,6 +39,9 @@ def setting_markup(_):
             ),
         ],
         [
+            InlineKeyboardButton(text="🎵Music Forever♥️",url="https://t.me/Music_Forever_X"),
+        ],
+        [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"], callback_data="close"
             ),
